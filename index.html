@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Time Elapsed Since August 11, 2006</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Time Elapsed</h1>
+        <div class="date-container">
+            <h2>Current Date</h2>
+            <p id="currentDate" class="current-date">As of Date</p>
+        </div>
+        
+        <div class="elapsed-time">
+            <div class="time-section">
+                <span id="years" class="time-value">0</span>
+                <span class="time-label">Years</span>
+            </div>
+            <div class="time-section">
+                <span id="months" class="time-value">0</span>
+                <span class="time-label">Months</span>
+            </div>
+            <div class="time-section">
+                <span id="days" class="time-value">0</span>
+                <span class="time-label">Days</span>
+            </div>
+        </div>
+
+        <div class="total-days">
+            <span class="total-days-label">Total Days Elapsed:</span>
+            <span id="totalDays" class="total-days-value">0</span>
+        </div>
+
+        <div class="notification-section">
+            <span class="notification-label">Enable Daily Notifications:</span>
+            <label class="switch">
+                <input type="checkbox" id="notificationToggle">
+                <span class="slider round"></span>
+            </label>
+            <span id="notificationStatus" class="notification-status">Disabled</span>
+        </div>
+    </div>
+</body>
+</html>
