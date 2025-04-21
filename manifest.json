@@ -1,0 +1,16 @@
+{
+  "name": "Time Elapsed Since August 11, 2006",
+  "short_name": "Time Elapsed",
+  "description": "Track the exact time elapsed since August 11, 2006",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4a90e2",
+  "icons": [
+    {
+      "src": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15/svgs/regular/clock.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ]
+}
